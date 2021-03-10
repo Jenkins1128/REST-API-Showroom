@@ -47,5 +47,4 @@ public class ProductsDAO{
 		productList = session.createQuery(HQL).getResultList();
 		return productList;
 	}
-
 }

@@ -15,11 +15,16 @@ Isaiah Jenkins
 * Maven (Dependency Injection)
 * Eclispe (IDE, Jave EE version 2020-12)
 
-## Set up MySQL Server
+##  Download Eclispe IDE, MySQL tools, and Postman
 
-1. If you don't have the latest MySQL Community Server downloaded, [click here](https://dev.mysql.com/downloads/mysql/).
-2. If you don't have the latest MySQL Workbench downloaded, [click here](https://dev.mysql.com/downloads/workbench/).
-3. I'll add images below for you to create the schema and tables.
+1. [Eclispe (IDE, Java EE version 2020-12)](https://www.eclipse.org/downloads/packages/)
+2. [MySQL Community Server](https://dev.mysql.com/downloads/mysql/)
+3. [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
+4. [Postman](https://www.postman.com/downloads/)
+
+## Set up schema and tables on MySQL Workbench
+
+Note: Make sure to start your MySQL server on your computer.
 
 Schema - showroom
 

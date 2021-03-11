@@ -65,7 +65,7 @@ GET http://localhost:8080/restapp/showroom/brands
 
 No body
 ```
-#### Get specific brand by id
+#### Get brand by brand id
 ```
 Ex: 
 
@@ -73,7 +73,7 @@ GET http://localhost:8080/restapp/showroom/brands/4
 
 No body
 ```
-#### Get products of brand by id 
+#### Get products by brand id 
 ```
 Ex: 
 
@@ -81,7 +81,7 @@ GET http://localhost:8080/restapp/showroom/brands/4/products
 
 No body
 ```
-#### Get products of brand by id and category
+#### Get products by brand id and category
 ```
 Ex: 
 
@@ -89,7 +89,7 @@ GET http://localhost:8080/restapp/showroom/brands/4/products?category=clothing
 
 No body
 ```
-#### Update brand name
+#### Update brand name by brand id
 ```
 Ex: 
 

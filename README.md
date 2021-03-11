@@ -1,6 +1,6 @@
 # REST API - Showroom
 
-The Showroom REST API creates brands and adds products to those brands with resource URLs.
+The Showroom REST API creates brands and adds products to those brands.
 
 Isaiah Jenkins
 ## Technologies

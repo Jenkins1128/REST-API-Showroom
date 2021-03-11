@@ -1,6 +1,6 @@
 # REST API - Showroom
 
-The Showroom REST API creates brands and adds products to those brands with resource urls.
+The Showroom REST API creates brands and adds products to those brands with resource URLs.
 
 Isaiah Jenkins
 ## Technologies
@@ -35,11 +35,10 @@ In the products table, set up a foreign key for brand id referenced to the brand
 
 <img width="799" alt="Screen Shot 2021-03-10 at 2 10 10 PM" src="https://user-images.githubusercontent.com/35716724/110704813-57a84100-81aa-11eb-87c4-d6583ff25abb.png">
 
+## How to run the project
 
-## How to run project
-
-1. Open Eclispe.
-2. Right click on "restapi" project folder.
+1. Open Eclipse.
+2. Right-click on "restapi" project folder.
 3. Click Run As -> Run on Server.
 4. Make sure the web server is the latest Tomcat for v9.x.x.
 5. Hit Finish.
@@ -47,7 +46,7 @@ In the products table, set up a foreign key for brand id referenced to the brand
 
 ### Use Postman to test application
 
-Important: Make sure Content-type header is set to application/json for the requests except for DELETE operation.
+Important: Make sure the Content-type header is set to application/json for the requests except for DELETE operation.
 
 #### Create a brand
 ```

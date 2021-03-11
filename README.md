@@ -47,6 +47,7 @@ In the products table, set up a foreign key for brand id referenced to the brand
 Important: Make sure Content-type header is set to application/json for the requests except DELETE.
 
 #### Create a brand
+```
 POST http://localhost:8080/restapp/showroom/brands 
 
 In BODY, send raw JSON object
@@ -55,33 +56,33 @@ Ex:
 {
     "brandName": "my brand"
 }
-
+```
 #### Get all brands
-
+```
 Ex: 
 
 GET http://localhost:8080/restapp/showroom/brands
 
 No body
-
+```
 #### Get specific brand by id
-
+```
 Ex: 
 
 GET http://localhost:8080/restapp/showroom/brands/4
 
 No body
-
+```
 #### Get products of brand by id 
-
+```
 Ex: 
 
 GET http://localhost:8080/restapp/showroom/brands/4/products
 
 No body
-
+```
 #### Get products of brand by id and category
-
+```
 Ex: 
 
 GET http://localhost:8080/restapp/showroom/brands/4/products?category=clothing
@@ -91,24 +92,24 @@ No body
 #### Update brand name
 
 Ex: 
-
+```
 PUT http://localhost:8080/restapp/showroom/brands/16
-
+```
 In BODY, send raw JSON object like below
 
 {
     "brandId": 16,
     "brandName": "brand18"
 }
-
+```
 #### Delete brand by id
-
+```
 Ex: 
 
 DELETE http://localhost:8080/restapp/showroom/brands/16
 
 No body
-
+```
 
 
 

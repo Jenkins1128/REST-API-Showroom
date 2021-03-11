@@ -1,6 +1,6 @@
 # REST API - Showroom
 
-The Showroom REST API creates brands and add products to those brands with resource urls.
+The Showroom REST API creates brands and adds products to those brands with resource urls.
 
 Isaiah Jenkins
 ## Technologies
@@ -9,13 +9,14 @@ Isaiah Jenkins
 * Hibernate (ORM)
 * MySQL (Server)
 * Jersey (JAX-RS)
+* Tomcat (Web server)
 * Maven (Dependency Injection)
 * Eclispe (IDE, Jave EE version 2020-12)
 
 ## Set up MySQL Server
 
 1. If you don't have the latest MySQL Community Server downloaded, [click here](https://dev.mysql.com/downloads/mysql/).
-2. If you don't have the latest MySQl Workbench downloaded, [click here](https://dev.mysql.com/downloads/workbench/).
+2. If you don't have the latest MySQL Workbench downloaded, [click here](https://dev.mysql.com/downloads/workbench/).
 3. I'll add images below for you to create the schema and tables.
 
 Schema - showroom
@@ -38,13 +39,13 @@ In the products table, set up a foreign key for brand id referenced to the brand
 1. Open Eclispe.
 2. Right click on "restapi" project folder.
 3. Click Run As -> Run on Server.
-4. Make sure the Server is the latest Tomcat v9.0.
+4. Make sure the web server is the latest Tomcat for v9.x.x.
 5. Hit Finish.
 
 
 ### Use Postman to test application
 
-Important: Make sure Content-type header is set to application/json for the requests except DELETE.
+Important: Make sure Content-type header is set to application/json for the requests except for DELETE operation.
 
 #### Create a brand
 ```

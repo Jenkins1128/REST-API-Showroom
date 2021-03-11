@@ -8,6 +8,7 @@ Isaiah Jenkins
 * Java (Server-side language)
 * Hibernate (ORM)
 * MySQL (Server)
+* MySQL Workbench (visual database design tool for MySQL database)
 * Jersey (JAX-RS)
 * Tomcat (Web server)
 * Postman (REST Client)

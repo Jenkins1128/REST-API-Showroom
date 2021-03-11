@@ -51,11 +51,12 @@ Important: Make sure Content-type header is set to application/json for the requ
 
 #### Create a brand
 ```
+Ex:
+
 POST http://localhost:8080/restapp/showroom/brands 
 
-In BODY, send raw JSON object
+In BODY, send raw JSON object like below
 
-Ex:
 {
     "brandName": "my brand"
 }

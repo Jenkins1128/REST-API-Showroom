@@ -10,6 +10,7 @@ Isaiah Jenkins
 * MySQL (Server)
 * Jersey (JAX-RS)
 * Tomcat (Web server)
+* Postman (REST Client)
 * Maven (Dependency Injection)
 * Eclispe (IDE, Jave EE version 2020-12)
 

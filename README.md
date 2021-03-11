@@ -88,13 +88,13 @@ Ex:
 GET http://localhost:8080/restapp/showroom/brands/4/products?category=clothing
 
 No body
-
+```
 #### Update brand name
-
+```
 Ex: 
-```
+
 PUT http://localhost:8080/restapp/showroom/brands/16
-```
+
 In BODY, send raw JSON object like below
 
 {
